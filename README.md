@@ -33,29 +33,50 @@ Install dependencies:
 
 ```bash
 pip install requests
+```
+
+---
 
 ## 🧪 Usage
+
 ## 📁 Run the script
+
+```bash
 python3 ubuntu_image_fetcher.py
+```
+
+---
 
 ## ⌨️ Input
 
 Paste one or more comma-separated image URLs (direct links only):
+
+```bash
 https://images.unsplash.com/photo-1506744038136-46273834b3fb, https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e
+```
+
+---
 
 ## 📥 Output
 
 Images are downloaded and saved to the Fetched_Images directory:
 
+```bash
 ✓ Saved: photo-1506744038136-46273834b3fb → Fetched_Images/photo-1506744038136-46273834b3fb.jpg
 ✓ Saved: photo-1529626455594-4ff0802cfb7e → Fetched_Images/photo-1529626455594-4ff0802cfb7e.jpg
+```
+
+---
 
 ## 🌱 Ubuntu Principles in Practice
-Principle	Implementation
-Community	Connects with the broader web to retrieve visual content
-Respect	Handles failures and unknowns gracefully, without crashing
-Sharing	Organizes content into a reusable and shareable folder
-Practicality	Solves a common task in a lightweight and scriptable way
+
+Principle Implementation
+Community Connects with the broader web to retrieve visual content
+Respect Handles failures and unknowns gracefully, without crashing
+Sharing Organizes content into a reusable and shareable folder
+Practicality Solves a common task in a lightweight and scriptable way
+
+---
 
 ## 🛡️ Security Notes
 
@@ -67,7 +88,10 @@ Uses hashed content to detect and prevent duplicates
 
 Does not follow suspicious redirects blindly
 
+---
 
 ## ❤️ Inspired by Ubuntu
 
+```
 "I am because we are." This script aims to strengthen our connection through respectful technology and shared resources.
+```
